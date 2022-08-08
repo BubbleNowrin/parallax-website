@@ -1,4 +1,7 @@
+/* ---------------Google font link-------- */
 @import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&family=Poppins:wght@500&family=Roboto:ital,wght@1,500&display=swap');
+
+/* ---------------general design------------------- */
 
 body {
     font-family: 'Edu VIC WA NT Beginner', cursive;
@@ -13,6 +16,7 @@ body {
     font-size: 50px;
 }
 
+/* ---------------------top-parallax design----------------- */
 .top-parallax h1 {
     padding-top: 80px;
     font-size: 100px;
@@ -21,13 +25,8 @@ body {
 }
 
 .top-parallax {
-    /* The image used */
     background-image: url("images/bg3.jpg");
-
-    /* Set a specific height */
     min-height: 500px;
-
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -41,6 +40,8 @@ body {
     font-size: 15px;
     padding: 20px;
 }
+
+/* ---------------mid-parallax design----------------- */
 
 .mid-parallax {
     text-align: center;
@@ -63,13 +64,8 @@ body {
 
 .mid-parallax {
     margin-top: -85px;
-    /* The image used */
     background-image: url("images/bg4.jpg");
-
-    /* Set a specific height */
     min-height: 500px;
-
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -89,6 +85,8 @@ body {
     margin-top: 50px;
 }
 
+/* ------------------bottom-parallax design----------- */
+
 .bottom-parallax h1 {
     padding-top: 80px;
     font-size: 100px;
@@ -98,13 +96,8 @@ body {
 
 .bottom-parallax {
     margin-top: -85px;
-    /* The image used */
     background-image: url("images/bg5.jpg");
-
-    /* Set a specific height */
     min-height: 500px;
-
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
