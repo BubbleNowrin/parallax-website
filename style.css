@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&family=Poppins:wght@500&family=Roboto:ital,wght@1,500&display=swap');
+
+body {
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+}
+
+.title h1 {
+    height: 20px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.top-parallax h1 {
+    padding-top: 80px;
+    font-size: 100px;
+    text-align: center;
+    color: white;
+}
+
+.top-parallax {
+    /* The image used */
+    background-image: url("images/bg3.jpg");
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.details {
+    height: 100px;
+    color: white;
+    background-color: black;
+    font-size: 15px;
+    padding: 20px;
+}
+
+.mid-parallax {
+    text-align: center;
+}
+
+.mid-parallax h1 {
+    padding-top: 80px;
+    font-size: 80px;
+    color: white;
+}
+
+.btn {
+    text-decoration: none;
+    color: aliceblue;
+    background-color: orangered;
+    padding: 30px;
+    border-radius: 10px;
+
+}
+
+.mid-parallax {
+    margin-top: -85px;
+    /* The image used */
+    background-image: url("images/bg4.jpg");
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.midsection-details {
+    height: 150px;
+    color: black;
+    background-color: white;
+    font-size: 15px;
+    padding: 20px;
+}
+
+.midsection-details p {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.bottom-parallax h1 {
+    padding-top: 80px;
+    font-size: 100px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.bottom-parallax {
+    margin-top: -85px;
+    /* The image used */
+    background-image: url("images/bg5.jpg");
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bottomsection-details {
+    height: 100px;
+    color: white;
+    background-color: black;
+    font-size: 15px;
+    padding: 20px;
+}
